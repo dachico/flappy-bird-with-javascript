@@ -1,4 +1,3 @@
-// stas the gay
 // board
 let board;
 let boardWidth = 360;
