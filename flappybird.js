@@ -115,7 +115,9 @@ function update() {
   context.fillText(score, 5, 45);
 
   if (gameOver) {
-    context.fillText("GAME OVER", 40, 100);
+    context.fillText(`GAME OVER`, 40, 100);
+    context.fillText(`Press ArrowUp`, 40, 150);
+    context.fillText(`To restart!`, 80, 200);
   }
 }
 
